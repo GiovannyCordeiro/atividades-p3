@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hello', (req, res) => {
-  res.json('Hello world! Value prof! 😄')
+  res.json('Hello world! Value prof! 😄');
 });
 
 app.listen(port, () => {
