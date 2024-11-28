@@ -11,7 +11,6 @@ app.get('/hello', (req, res) => {
   res.json('Hello world! Value prof! 😄')
 });
 
-
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
